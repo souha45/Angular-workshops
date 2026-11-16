@@ -1,0 +1,19 @@
+<div class="section-card notifications">
+  <div class="section-icon">🔔</div>
+  <div>
+    <h2>Zone de notifications</h2>
+    <p>Vous avez {{ notifications.length }} nouvelles notifications.</p>
+
+    <button (click)="toggle()">
+      {{ showList ? 'Masquer' : 'Afficher' }} les notifications
+    </button>
+
+    @if (showList) {
+      <ul>
+        @for (n of notifications; track n) {
+          <li>{{ n }}</li>
+        }
+      </ul>
+    }
+  </div>
+</div>

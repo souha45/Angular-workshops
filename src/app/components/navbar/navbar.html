@@ -1,0 +1,5 @@
+<nav>
+  @for (item of listItems; track item.name) {
+    <a [href]="item.link">{{ item.name }}</a>
+  }
+</nav>

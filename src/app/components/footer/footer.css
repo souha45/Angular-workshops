@@ -1,0 +1,9 @@
+:host { display: block; }
+
+footer {
+  background: #17376b;
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+  margin-top: 24px;
+}

@@ -1,0 +1,13 @@
+:host { display: block; }
+
+.notifications { --accent: #f59e0b; --accent-soft: #fff1d6; }
+
+button {
+  padding: 6px 12px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  background: #f1f5f9;
+  cursor: pointer;
+}
+
+ul { margin: 12px 0 0; padding-left: 20px; }
